@@ -1,0 +1,12 @@
+# Terraform 상태 파일
+*.tfstate
+*.tfstate.backup
+
+# 변수 파일
+*.tfvars
+
+# Terraform Lock 파일
+*.terraform.lock.hcl
+
+# Terraform 디렉토리
+.terraform/
