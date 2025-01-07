@@ -13,7 +13,7 @@ output "lb_dns_name" {
   value       = aws_lb.frontend.dns_name
 }
 
-output "alb_zeta4.shop_dns_name" {
+output "alb_zeta4_shop_dns_name" {
   description = "The DNS name of the alb.zeta4.shop Route 53 record"
   value       = aws_route53_record.alb_alias_record.fqdn
 }
